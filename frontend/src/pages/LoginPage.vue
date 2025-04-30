@@ -96,6 +96,10 @@ const handleLogin = async () => {
   min-height: 100vh;
   background-color: #f5f7fa;
   padding: 20px;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240209/pngtree-task-management-business-planning-app-illustration-vector-image_15623958.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 600px) {

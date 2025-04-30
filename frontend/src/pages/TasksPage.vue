@@ -29,7 +29,6 @@
 
         <v-card-text>
           <v-text-field v-model="newTask.title" label="Title" required></v-text-field>
-          <v-text-field v-model="newTask.status" label="Status" required></v-text-field>
           <v-text-field v-model="newTask.dueDate" label="Due Date" type="date" required></v-text-field>
         </v-card-text>
 
@@ -126,10 +125,10 @@ const submitTask = async () => {
     const response = await axios.post('http://localhost:5000/api/tasks', {
       userId: 1,
       title: newTask.value.title,
-      description: 'description',
+      description: 'new task added',
       due_date: newTask.value.dueDate,
       priority: 'high',
-      status: newTask.value.status,
+      status: 'pending',
     }, {
       headers: {
         Authorization: `Bearer ${localStorage.getItem('token')}`,

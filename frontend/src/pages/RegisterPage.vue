@@ -114,6 +114,10 @@ const handleRegister = async () => {
   min-height: 100vh;
   background-color: #f5f7fa;
   padding: 20px;
+  background-image: url('https://media.istockphoto.com/id/1250306389/photo/smiling-coworkers-writing-tasks-on-sticky-papers-post-it-notes.jpg?s=2048x2048&w=is&k=20&c=FO-aNcZSzislZQF1isXhyQY3HwG6KTQf8gUfoKzBpRY=');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 600px) {
